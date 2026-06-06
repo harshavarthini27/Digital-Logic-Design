@@ -23,3 +23,8 @@ The AND gate outputs a `1` only when all its inputs are `1`.
 | 0 | 1 | 0 |
 | 1 | 0 | 0 |
 | 1 | 1 | 1 |
+
+##  Simulation Waveform Output
+The digital module design was verified using the Icarus Verilog simulation engine on EDA Playground. The resulting timing diagram confirms correct logic state transitions across all universal and basic gates:
+
+![Simulation Waveform](simulation_waveform.png)
